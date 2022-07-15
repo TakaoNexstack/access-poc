@@ -14,3 +14,36 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.users-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.user-card {
+  padding: 1rem;
+  margin: 0 !important;
+  border: 1px dashed grey;
+  margin: 1rem;
+}
+.username {
+  font-weight: bold;
+}
+.department {
+  color: red;
+}
+.cameras-container {
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px dashed grey;
+}
+.application {
+  display: inline-block;
+  border: 3px solid green;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.app-body {
+  color: green;
+}
